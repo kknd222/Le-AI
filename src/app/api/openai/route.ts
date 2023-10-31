@@ -27,7 +27,7 @@ const getEnvProxyUrl = () => {
   return API_PROXY;
 };
 
-export const maxDuration = 300;
+export const maxDuration = 10;
 
 export async function OPTIONS() {
   return new Response(null, {
