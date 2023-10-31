@@ -28,7 +28,7 @@ const PREMIUM_MODELS = [
   "Llama v2 70B",
 ];
 
-export const maxDuration = 300;
+export const maxDuration = 10;
 
 export async function POST(request: Request) {
   const session = await getServerSession(authOptions);
